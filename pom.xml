@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>HelloWorldPackage</artifactId>
+    <artifactId>helloworldpackage</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,5 +13,14 @@
         <maven.compiler.target>18</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub autohandle Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/autohandle/HelloWorldPackage</url>
+        </repository>
+    </distributionManagement>
+
 
 </project>
